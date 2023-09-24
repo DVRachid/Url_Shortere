@@ -1,14 +1,8 @@
-# SquaHR URL Shortener Coding challenge
+#  URL Shortener challenge
 
 This project is my solution for the Coding Challenge proposed by SquaHR
 
-## Demo
 
-### Home page
-![Home page](index_page_screen.png)
-
-### URL Stats page
-![Alt text](stat_page_screen.png)
 
 
 ## What the project is about?
@@ -37,10 +31,6 @@ making it easy to develop robust and scalable web applications.
 Laravel offers built-in features such as database management,
 session handling, authentication, form validation, and more.
 It promotes clean and well-structured development practices.
-
-### Laravel Sail package
-
-Laravel Sail is a lightweight command-line interface (CLI) for managing development environments using Docker. It provides a pre-packaged Docker configuration specifically tailored for Laravel applications. Sail streamlines the setup process by handling the installation and configuration of the necessary services, such as a web server, database, and caching. It enables developers to quickly set up a consistent and portable development environment.
 
 ### MySQL Database
 
@@ -116,38 +106,6 @@ The project has been scaffolded using Laravel sails
 
 9. Open your browser at http://localhost:8000
 
-## Dockerized environment
-
-If you have familiar with Docker, here are the steps you must follow
-
-1. Clone the project
-    ```shell
-    git clone https://github.com/denisakp/SquaHR_url_shortener.git
-    cd SquaHR_url_shortener
-    ```
-2. Create e .env file and update its content if needed
-    ```shell
-    cp .env.example .env
-    ```
-
-3. Generate Laravel APP Key
-    ```shell
-    php artisan key:generate --ansi
-    ```
-
-4. Everything has already been configured, so just run the following command to start the Dev environment
-    ``` shell
-    ./vendor/bin/sail up
-    ```
-5. Open a new Tab in your terminal and run the migration
-    ```shell
-    ./vendor/bin/sail artisan migrate
-    ``` 
-6. Start the Node.js development server
-    ```shell
-    ./vendor/bin/sail npm run dev
-    ```
-7. Open your browser at http://localhost
 
 # Conclusion
 
