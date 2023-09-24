@@ -11,6 +11,7 @@ class StatController extends Controller
 {
     public function __invoke(ShortLink $shortLink): Response
     {
+       
         return Inertia::render('LinkStats', [
             'link' => $shortLink,
             'stats' => $shortLink->statistics,

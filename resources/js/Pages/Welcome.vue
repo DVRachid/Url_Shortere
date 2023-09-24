@@ -34,21 +34,13 @@ const submit = () =>
                         <h1
                             class="text-3xl font-bold tracking-tight text-gray-900"
                         >
-                            URL Shortener project
+                            URL Shortener Challenge
                         </h1>
                     </div>
                 </header>
 
-                <div class="mx-auto container max-w-7xl py-3 sm:px-6 lg:px-8">
-                    <h2>Statistics</h2>
-                    <div class="py-3">
-                        <Statistic
-                            :unique_visitors="unique_visitors"
-                            :total="data.length"
-                            :most_clicked="most_clicked"
-                        />
-                    </div>
-                </div>
+                
+                
 
                 <div class="mx-auto container max-w-7xl py-3 sm:px-6 lg:px-8">
                     <div class="space-y-12 p-4">

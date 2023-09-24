@@ -26,4 +26,4 @@ class ShortenerRequest extends FormRequest
             'url' => 'required|unique:short_links|url'
         ];
     }
-}
+} 

@@ -10,7 +10,8 @@ class ShortLink extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['url', 'code', 'ip_address'];
+     
+    protected $fillable = ['short_link_id', 'visitor'];   
 
     /**
      * Relation with a Statistic model
